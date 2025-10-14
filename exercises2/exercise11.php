@@ -5,4 +5,4 @@
         $factorial *= $i;
     }
     echo $factorial;
-?>  
+?>
