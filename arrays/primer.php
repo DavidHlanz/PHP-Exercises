@@ -1,6 +1,7 @@
 <?php
  $drinks = array("Coffee","Tea","Water","Beer","Wine","Soft drink");
  echo "<h1>DRINKS</h1>";
+ echo "Choose one of the ", count($drinks) ," drinks: ";
  echo "<ul>";
  foreach ($drinks as $b) {
  echo "<li>", $b, "</li>";
