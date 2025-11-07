@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cuarto.php" method="post">
+        <fieldset>
+            <legend>Formulario de contacto</legend>
+            <label for="name">Nombre: </label>
+            <input type="text" name="name">
+
+            <label for="mail">Mail: </label>
+            <input type="email" name="mail">
+
+            <label for="roles">Choose: </label>
+            <select name = "roles[]" multiple>
+                <option value="student">student</option>
+                <option value="teacher">teacher</option>
+                <option value="service staff">service staff</option>
+            </select>
+
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+</body>
+</html>
