@@ -12,13 +12,13 @@
     $roles = $_POST['roles'];
 
         if (empty($name)){
-            echo "El nombre esta vacio";
+            echo "El nombre esta vacio ";
         }
         if (empty($mail)){
-            echo "El mail esta vacio";
+            echo "El mail esta vacio ";
         }
         echo "your role(s) are: ";
-        
+
         foreach($roles as $role){
             echo $role . ", ";
         }
